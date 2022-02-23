@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "8-bit 2-Player Tetris",
+    "version": "1.0.1",
+    "description": "Play Tetris anytime in your browser, even offline! Controls: Player 1: WASD to move, Left Shift to Hold, Player 2: Arrow keys to move, Right Shift to hold",
+    "icons": {
+	"128": "icons/128.png",
+	"64": "icons/64.png",
+	"48": "icons/48.png",
+	"32": "icons/32.png",
+	"24": "icons/24.png",
+	"16": "icons/16.png"
+    },
+    "browser_action": {
+	"default_icons": {
+    	    "128": "icons/128.png",
+	    "64": "icons/64.png",
+	    "48": "icons/48.png",
+	    "32": "icons/32.png",
+	    "24": "icons/24.png",
+	    "16": "icons/16.png"
+	}
+    },
+    "background": {
+	"scripts": [ "background.js" ]
+    },
+    "minimum_chrome_version": "80",
+    "offline_enabled": true
+}
